@@ -1,0 +1,22 @@
+{
+  "name": "javascript-dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "print": "^1.0.2"
+  },
+  "scripts": {
+    "test-dojo1": "./node_modules/mocha/bin/mocha dojo-1/**/*.js",
+    "test-dojo2": "./node_modules/mocha/bin/mocha dojo-2/**/*.js",
+    "test-dojo3": "./node_modules/mocha/bin/mocha dojo-3/**/*.js",
+    "test-dojo4": "./node_modules/mocha/bin/mocha dojo-4/**/*.js",
+    "test-dojo5": "./node_modules/mocha/bin/mocha dojo-5/**/*.js",
+    "test-dojo6": "./node_modules/mocha/bin/mocha dojo-6/**/*.js",
+    "test-dojo7": "./node_modules/mocha/bin/mocha dojo-7/**/*.js",
+    "test-dojo8": "./node_modules/mocha/bin/mocha dojo-8/**/*.js"
+  }
+}
