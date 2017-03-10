@@ -2,6 +2,9 @@ const stringToBeRegexed = 'At the end of January, Carnegie Mellon computer scien
 
 const extractEvery3Numbers = text => {
   // code a regex to extract an array of numbers from the stringToBeRegexed variable;
+  return true;
 };
 
-console.log('REGEX answer:', extractEvery3Numbers(stringToBeRegexed));
+// console.log('REGEX answer:', extractEvery3Numbers(stringToBeRegexed));
+
+module.exports = extractEvery3Numbers;

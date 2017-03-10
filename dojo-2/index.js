@@ -29,10 +29,10 @@ const es6 = {
   dynamicIdUrl: `http://localhost:3000/users/${hotmartDev.id}`,
   greet: () => `Hello, my name is ${hotmartDev.name.toUpperCase()} and I'm ${hotmartDev.age - 7}.`,
   multiLine: `We know that somewhere far north of here
-  the two rivers Ba and Ab converge to form
-  this greater stream that sustains us, uniting
-  the lifeblood length of our lands: and we believe
-  that the Ba's source is heaven, the Ab's hell.`,
+              the two rivers Ba and Ab converge to form
+              this greater stream that sustains us, uniting
+              the lifeblood length of our lands: and we believe
+              that the Ba's source is heaven, the Ab's hell.`,
   numbers: {
     binary: 0b1001001,
     decimal: 73,
@@ -41,3 +41,7 @@ const es6 = {
   }
 }
 // more on es6 Numbers: http://exploringjs.com/es6/ch_numbers.html
+
+console.log(es6.dynamicIdUrl);
+// console.log(es6.greet());
+// console.log(es6.multiLine);
