@@ -1,12 +1,9 @@
-// const print = require('print');
-
 // String interpolation
 const hotmartDev = {
   age: 27,
   id: 10,
   name: 'Leo'
 };
-const stringToBeRegexed = 'At the end of January, Carnegie Mellon computer scientists achieved a major milestone: their algorithm, Libratus, beat a set of professional poker players in a 120,000-hand tournament. While humans have fallen to computers in a variety of games, notably chess and go, poker is fundamentally different, in that each player has information that is not available to the rest. A fundamentally different sort of AI is required to deal with this sort of imperfect information.'
 
 const es5 = {
   dynamicIdUrl: 'http://localhost:3000/users/' + hotmartDev.id,
@@ -44,10 +41,3 @@ const es6 = {
   }
 }
 // more on es6 Numbers: http://exploringjs.com/es6/ch_numbers.html
-
-// Scoping
-const extractNumbers = (text) => {
-  // code a regex to extract an array of numbers from the stringToBeRegexed variable;
-};
-
-// Arrow functions
