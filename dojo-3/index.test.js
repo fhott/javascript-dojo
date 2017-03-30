@@ -19,17 +19,17 @@ describe('Testing Classes and Methods', () => {
 
   it('Descricao presepeiro', () => {
   	assert.equal("2 - Presepeiro - Honestidade não cabe no meu orçamento", buyer.toString());
-  });  
+  });
 
   it('Descricao vendedor', () => {
   	assert.equal("5 - José - meta de 50000 reais", seller.toString());
-  });  
+  });
 
   it('Descricao produto', () => {
   	assert.equal("1 - Chevrolet Cobalt 2.0", product.toString());
-  });  
+  });
 
   it('Descricao compra', () => {
   	assert.equal("Comprador: 2 - Presepeiro - Honestidade não cabe no meu orçamento\nVendedor: 5 - José - meta de 50000 reais\nProduto: 1 - Chevrolet Cobalt 2.0\nO que aconteceu? Venda de 70000.", purchase.toString());
-  });  
+  });
 });
